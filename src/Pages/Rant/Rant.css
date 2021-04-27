@@ -1,0 +1,156 @@
+.Rant{
+    display:flex;
+    justify-content:center;
+    /* border:2px solid blue; */
+    flex-wrap:wrap-reverse;
+    width:100%
+}
+
+.Rant_content_left{
+    /* border:2px solid red; */
+    flex:.4;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    /* align-items: center; */
+    padding:30px;
+    flex-wrap: wrap;
+    width:100%
+}
+.Rant_title{
+    align-items:flex-end!important;
+    /* margin-left:120px!important; */
+    /* border:2px solid blue; */
+    padding-top: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+
+}
+
+.Rant_title>p{
+    margin-top: 0px;
+}
+
+.Rant_left_title{
+    color:rgb(144, 155, 209);
+    font-size:18px;
+}
+
+.Rant_card{padding:20px;
+    width:500px}
+
+.Rant_card_div{
+/* text-align: end; */
+display: flex;
+justify-content: flex-end;
+width:100%;
+}
+
+.Rcard_content{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.Rant_left_titleSpan{
+    font-size:18px;
+    color:#45C1A1
+}
+
+.Rant_content_right{
+    /* border:2px solid red; */
+    flex:.5
+}
+
+#hr{
+   border:1px solid rgba(226, 218, 218, 0.698);
+  display:flex
+}
+
+.Rcard_contentLast_row{
+    display:flex;
+    justify-content: space-around;
+    align-items: flex;
+    padding-top: 10px;
+}
+
+.Rcard_icon_space{
+    padding-left:4px;
+}
+
+.Rant_component_card{
+    /* border:2px solid green; */
+    width:500px;
+    padding:20px
+}
+
+.Rcard_content_component{
+    display: flex;flex-direction: column;
+}
+
+.Rant_component_main{
+    display:flex;
+    /* border:2px solid green; */
+    justify-content:flex-end;
+    margin-top:15px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .Rant_card{
+    width:340px;font-size: 14px;height:290px!important;padding-bottom: 10px;
+    }
+    .Rant_title{margin-left: 0;}
+    .Rtext_size_responsive{font-size:11px!important}
+    .Rtitle_responsive{font-size:18px;}
+
+    .Ricon_size_responsive{
+        font-size: 10px;color:red;width:13px
+    }
+
+    .Ricon_size_responsiveuser{
+        width:20px;
+    }
+  }
+
+  @media only screen and (max-width: 651px) {
+    .Rant_content_right
+    {flex: unset!important;
+        
+    
+            text-align: center!important;
+            /* margin-left: 12px; */
+            }}
+
+
+  @media only screen and (max-width: 390px) {
+    .Rant_card{
+    width:300px;font-size: 14px;height:370px;padding-bottom: 10px;
+    }
+    .Rant_title{margin-left: 0;}
+    .Rtext_size_responsive{font-size:11px!important}
+    .Rtitle_responsive{font-size:18px;}
+
+    .Ricon_size_responsive{
+        font-size: 14px!important;color:red;width: 14px !important;
+    }
+    .Rtitle_responsive{font-size:.7rem!important;}
+
+
+    .Ricon_size_responsiveuser{
+        width:20px;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 350px) {
+    .Rtext_size_responsive{
+    font-size: 11px!important;
+    }
+    .Ricon_size_responsive{
+        font-size: 12px!important;color:red;width: 12px !important;
+    }
+
+}
